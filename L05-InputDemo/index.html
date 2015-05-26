@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        body{
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+        .row{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!--select和textarea尽量少用-->
+
+<!--基本输入框-->
+<!--hint: addon-->、
+<div class="container">
+    <div class="form-group">
+        <label>Input</label>
+        <div class="input-group">
+            <span class="input-group-addon">@</span>
+            <input class="form-control" type="text" placeholder="UserName">
+        </div>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon">$</span>
+        <input class="form-control" type="text" placeholder="100">
+        <span class="input-group-addon">.00</span>
+    </div>
+</div>
+
+<!--栅栏控制输入框大小-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <input type="checkbox" >
+                </span>
+                <input class="form-control" type="text" placeholder="Text">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="input-group">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                </span>
+                <input class="form-control" type="text" placeholder="Text">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--下拉菜单结合输入框-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="input-group">
+                <span class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    List_Down
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li role="presentation"><a href="#" role="menuitem">YI</a></li>
+                    <li role="presentation"><a href="#" role="menuitem">ER</a></li>
+                    <li role="presentation"><a href="#" role="menuitem">SAN</a></li>
+                </ul>
+            </span>
+                <input type="text" class="form-control" placeholder="InputName">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>

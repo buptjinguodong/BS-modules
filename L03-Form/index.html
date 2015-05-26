@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        body{
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+        .row{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Project Demo</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <form role="form" class="form-inline">
+        <div class="form-group">
+            <label>用户名</label>
+            <input type="date" class="form-control" placeholder="user">
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label>密码</label>
+            <input type="password" class="form-control" placeholder="password">
+        </div>
+        <div class="form-group">
+            <label class="sr-only">选择文件</label>
+            <input type="file">
+            <p class="help-block">选择你需要的文件</p>
+        </div>
+        <!--内联表单 form-inline-->
+    </form>
+    <div style="height:100px;"></div>
+    <!--水平排列的表单-->
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10"><input type="email" class="form-control" placeholder="Email"></div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">password</label>
+            <div class="col-sm-10"><input type="password" class="form-control" placeholder="password"></div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+                <div class="checkbox">
+                    <input type="checkbox">记住密码
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">登入</button>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

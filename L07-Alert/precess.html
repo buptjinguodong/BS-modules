@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+
+<!--进度条-->
+<!--hint: 使用了CSS3，注意浏览器兼容性问题-->
+<div class="container">
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="width:50%">
+            <span class="sr-only">50% Complete</span>
+        </div>
+    </div>
+
+
+</div>
+
+<!--带有提示框的进度条-->
+<div class="container">
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="width:50%">
+            50%
+        </div>
+    </div>
+</div>
+
+<!--各种主题颜色的进度条-->
+
+<!--有条纹的进度条-->
+<div class="container">
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="width:50%">
+            50%
+        </div>
+    </div>
+</div>
+
+<!--动态的进度条-->
+<div class="container">
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="width:50%">
+            50%
+        </div>
+    </div>
+</div>
+
+<!--堆叠的进度条-->
+<div class="container">
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="width:50%">
+            50%
+        </div>
+        <div class="progress-bar progress-bar-striped progress-bar-danger" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="30" style="width:30%">
+            30%
+        </div>
+    </div>
+</div>
+
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</body>
+</html>
